@@ -8,12 +8,13 @@ namespace RefactoringExercise
         static void Main(string[] args)
         {
             //REFAKTORISERA KODEN
-            //FIxa koden så den blir bättre att läsa och underhålla.
+            //Fixa koden så den blir bättre att läsa och underhålla.
             //Lägg fokus på:
             //1- Undvik Repeterad kod. Ersätt den för metoder
             //2- Lägg kommentarer. Du kan väl gyssa vad koden gör och lägga den som kommentärer
             //3- Validera input. dvs, parsa och kolla att det är i rätt typ
-            //4- Ge feedback till användaren. Om den skriver fel ska den få veta varför.
+            //4- Hantera errors. Informera om fel och/eller skapa kod som inte crashar.
+            //5- Ge feedback till användaren. Om den skriver fel ska den få veta varför.
             
             int answer = -1;
 
