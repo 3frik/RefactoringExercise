@@ -87,12 +87,12 @@ namespace RefactoringExercise
                     Console.WriteLine("");
                     for (int i = 0; i < innerText.Length+4; i++)
                     {
-                        Console.Write(" # ");
+                        Console.Write("#");
                     }
-                    Console.WriteLine("\n# "+innerText.Length+" #");
+                    Console.WriteLine("\n# "+innerText+" #");
                     for (int i = 0; i < innerText.Length+4; i++)
                     {
-                        Console.Write(" # ");
+                        Console.Write("#");
                     }
 
                 }
