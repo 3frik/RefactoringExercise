@@ -24,6 +24,7 @@ namespace RefactoringExercise
                 Console.WriteLine("What do you want to do?\n 1. A line\n 2. My Line\n 3. A Square\n 4. My Square\n 5. A border\n 6. My border\n 0. Exit");
                 answer = int.Parse(Console.ReadLine());
 
+                //Example Comment
                 if (answer == 1)
                 {
                         Console.WriteLine("");
